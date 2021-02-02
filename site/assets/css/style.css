@@ -1,0 +1,325 @@
+/* =====================================
+Template Name: E-Commerce Aduy
+Author Name: Yuda Adi Pratama
+Author URI: https://www.linkedin.com/in/yuda-adi-pratama-191660150/
+Description: E-Commerce Aduy Template.
+Version:1.0
+========================================*/
+
+/* =====================================
+Color Plate
+========================================*/
+body {
+	background-color: #fff;
+	/*padding-top: 8rem !important;*/
+	font-family: "Lato", sans-serif;
+}
+
+/* =====================================
+Header Section
+========================================*/
+.main-navbar {
+	background-color: #fff;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-brand img {
+	height: 4rem !important;
+}
+
+.navbar{
+	font-size: 1rem;
+	background-color: #ffc107;
+	padding-left: 1rem !important;
+}
+
+.navbar-nav{
+	margin-left: auto !important;
+}
+
+.navbar-nav span{
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+}
+
+.navbar-nav .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    margin-left: 0.1rem !important; 
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: text-bottom !important;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.nav-item{
+	margin-left: 1rem !important;
+	margin-right: 1rem !important;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.nav-item a{
+	text-decoration: none;
+	color: #000 !important;
+}
+
+.navbar label{
+	color: #000; 
+	font-weight: 700;
+	margin-bottom: 0 !important;
+}
+
+.navbar-nav-second{
+	margin-right: auto !important;
+	display: flex;
+	list-style: none;
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+}
+
+.navbar-nav-second .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    margin-left: 0.1rem !important; 
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: text-bottom !important;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem;
+}
+
+.nav-item-second{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.nav-item-second a{
+	text-decoration: none;
+	color: #000 !important;
+}
+
+.SearchButton{
+	margin-left: auto !important;
+}
+
+.form-control {
+    display: block;
+    width: 15rem !important;
+    height: 0.1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.3rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.full-width.dropdown {
+    position: static;
+}
+.full-width.dropdown > .dropdown-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.full-width.dropdown > .dropdown-menu > li > a {
+   white-space: normal; 
+}
+
+.nav-item-second.full-width.dropdown.show{
+	text-decoration: 3px overline !important;
+}
+
+.dropdown-menu {
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 1rem;
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #f3f3f3;
+    background-clip: padding-box;
+    border-top: none !important;
+    border-left: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    border-radius: inherit;
+}
+
+.dropdown-menu img{
+	height: 15rem;
+	margin-left: auto !important;
+    padding: 1rem !important;
+    margin-right: auto !important;
+    display: block;
+}
+
+.dropdown-item {
+	text-transform: none !important;
+	padding: 0 !important;
+	margin-top: 0.5rem;
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+/* =====================================
+Carousel Section
+========================================*/
+
+.carouselSection{
+	height: auto;
+}
+.carousel-inner img{
+	width: 100%;
+}
+
+.carousel-item.active{
+	display: block;
+}
+
+.carousel-item{
+	display: none;
+}
+
+/* =====================================
+Category Section
+========================================*/
+
+.categorySection{
+	padding-top: 5rem;
+	height: auto;
+}
+
+.categorySection img{
+	height: 25rem;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+}
+
+.categorySection .row{
+	padding-bottom: 3rem;
+}
+
+.category-text {
+	position: relative;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important; 
+}
+
+.shop-now {
+	text-transform: uppercase;
+	font-weight: 600;
+    position: absolute;
+    bottom: 1rem;
+    width: 16rem;
+    left: 3rem;
+}
+
+.shop-now.btn{
+border-radius: 0px;
+}
+
+.shop-now:hover{
+ 	background-color: #000;
+ 	color: #fff;
+ 	border-color: #000;
+}
+
+
+/* =====================================
+Flash Sale Section
+========================================*/
+
+.flashSaleSection{
+	height: auto;
+	background-color: #ebecee;
+}
+
+.flashSaleSection img{
+	height: 40rem;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.judul-flash {
+	font-weight: bold;
+}
+
+/* =====================================
+Best Product Section
+========================================*/
+
+.bestProductSection {
+	padding-top: 5rem;
+	height: auto;
+}
+/* =====================================
+New Arrival Section
+========================================*/
+
+/* =====================================
+Footer Section
+========================================*/
+
+/* =====================================
+Media Query Section
+========================================*/
+
+@media (max-width: 1279px){
+
+.dropdown-menu img{
+	height: 15rem;
+	margin-left: auto !important;
+    padding: 1rem !important;
+    margin-right: auto !important;
+    display: block;
+}
+
+.shop-now {
+	text-transform: uppercase;
+	font-weight: 600;
+    position: absolute;
+    bottom: 1rem;
+    width: 16rem;
+    left: 1rem;
+}
+
+}
