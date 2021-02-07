@@ -212,16 +212,15 @@ Carousel Section
 	display: block;
 }
 
-.carousel-item{
+/*.carousel-item{
 	display: none;
-}
+}*/
 
 /* =====================================
 Category Section
 ========================================*/
 
 .categorySection{
-	padding-top: 5rem;
 	height: auto;
 }
 
@@ -230,6 +229,52 @@ Category Section
 	margin-left: auto !important;
 	margin-right: auto !important;
 	display: block !important;
+}
+
+.brand-logo {
+    background-color: #f1f1f1;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.brand-logo div{
+    margin: 3rem;
+}
+
+.logo {
+  margin: 0 auto;
+  position: relative;
+}
+
+.categorySection .logo-image {
+  height: 3rem;
+  transition: transform .5s;
+}
+
+.logo-text {
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 3rem;
+}
+
+.logo:hover .logo-image {
+  transform: translateY(-20px);
+}
+
+.logo:hover .logo-text {
+  opacity: 1;
 }
 
 .categorySection .row{
@@ -279,6 +324,11 @@ Flash Sale Section
 	margin-right: auto !important;
 }
 
+.flashSaleSection .card {
+    border: none;
+    border-radius: 0;
+}
+
 .judul-flash {
 	font-weight: bold;
 }
@@ -305,21 +355,21 @@ Media Query Section
 
 @media (max-width: 1279px){
 
-.dropdown-menu img{
-	height: 15rem;
-	margin-left: auto !important;
-    padding: 1rem !important;
-    margin-right: auto !important;
-    display: block;
-}
+    .dropdown-menu img{
+    	height: 15rem;
+    	margin-left: auto !important;
+        padding: 1rem !important;
+        margin-right: auto !important;
+        display: block;
+    }
 
-.shop-now {
-	text-transform: uppercase;
-	font-weight: 600;
-    position: absolute;
-    bottom: 1rem;
-    width: 16rem;
-    left: 1rem;
-}
+    .shop-now {
+    	text-transform: uppercase;
+    	font-weight: 600;
+        position: absolute;
+        bottom: 1rem;
+        width: 16rem;
+        left: 1rem;
+    }
 
 }
